@@ -49,7 +49,7 @@ export default function Home({ posts }) {
     <div className={styles.container}>
       <Head>
         <title>Blog | tententgc </title>
-        <meta name="description" content="A blog tutorial made with JAMstack" />
+        <meta name="description" content="A blog site from tententgc" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
