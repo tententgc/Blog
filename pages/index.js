@@ -4,7 +4,7 @@ import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from "../components/BlogCard";
 
 const graphcms = new GraphQLClient(
-  "https://api-ap-northeast-1.graphcms.com/v2/cl5gnhwto452701uh6w2k17ws/master"
+  "https://api-ap-northeast-1.hygraph.com/v2/cl5gnhwto452701uh6w2k17ws/master"
 );
 
 const QUERY = gql`
@@ -48,7 +48,7 @@ export default function Home({ posts }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Digital Scribbles</title>
+        <title>Blog | tententgc </title>
         <meta name="description" content="A blog tutorial made with JAMstack" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
